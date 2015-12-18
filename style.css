@@ -1,0 +1,75 @@
+
+/*Nav Bar*/
+#logo-img {
+  width: 150px;
+  height: auto;
+  margin-top: 5%;
+}
+
+.header-text {
+  color: #212121;
+  font-weight: 500;
+}
+
+/*Content*/
+
+/*Home*/
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 600px;
+}
+
+#home .home-img {
+  margin-top: 20px;
+  border-radius: 100px;
+}
+
+#home .name h4 {
+  font-weight: 900;
+}
+
+#home .description h4 {
+  font-weight: 800;
+}
+
+/*About*/
+
+#about {
+  background-color: #fafafa;
+}
+
+#about .title {
+  margin-left: 2%;
+}
+
+.about-description ul li  {
+  margin-left: 20px;
+  margin-bottom: 10px;;
+}
+
+/*Porfolio*/
+.port-title {
+  margin-left: 2%;
+}
+
+#porfolio .flex-projects {
+  display: flex;
+  flex-direction: row;
+}
+
+/*Footer*/
+footer.page-footer {
+  margin-top: 0;
+  padding-top: 0;
+  background: #424242;
+}
+
+@media screen and (min-width: 993px) {
+  #logo-img {
+    margin-left: 20px;
+  }
+}

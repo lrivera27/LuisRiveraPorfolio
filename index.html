@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Porfolio Luis Rivera</title>
+
+  <!-- Google fonts -->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- External Scripts -->
+
+  <!-- jQuery -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" charset="utf-8"></script>
+
+  <!-- MaterializeCSS Script -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js" charset="utf-8"></script>
+
+  <!-- External CSS -->
+
+  <!-- MaterializeCSS framework -->
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Local Scripts -->
+  <script src="script.js" charset="utf-8"></script>
+
+</head>
+<body>
+
+  <!--Navigation Bar -->
+  <div class="navbar-fixed">
+    <nav class="z-depth-2">
+      <div class="nav-wrapper  grey lighten-3">
+        <a href="#" class="brand-logo"><span class=".header-text">
+          <img id="logo-img" src="http://i.imgur.com/UWcDn9d.png" alt="Luis Rivera" /></span></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse" id="">
+            <i class="material-icons header-text">menu</i>
+          </a>
+          <!-- Normal top navbar items -->
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="header-text" href="#home">Home</a></li>
+            <li><a class="header-text" href="#about">About</a></li>
+            <li><a class="header-text" href="#portfolio">Portfolio</a></li>
+            <li><a class="header-text" href="#contact">Contact me</a></li>
+          </ul>
+          <!-- Mobile side bar items -->
+          <ul class="side-nav" id="mobile-demo">
+            <li><a class="header-text" href="#home">Home</a></li>
+            <li><a class="header-text" href="#about">About</a></li>
+            <li><a class="header-text" href="#portfolio">Portfolio</a></li>
+            <li><a class="header-text" href="#contact">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+
+      <!-- Home -->
+      <div id="home" class="parallax-container">
+        <div>
+          <img class="home-img"src="http://placehold.it/150x150" alt="" />
+        </div>
+        <div class="flow-text center">
+          <div class="name">
+            <h4>Luis Rivera Figueroa</h4></div>
+            <div class="description">
+              <h4>Computer Engineering Student</h4></div>
+            </div>
+
+            <div class="parallax"><img src="https://images.unsplash.com/photo-1418386767268-77cdab4edcaa?crop=entropy&dpr=1.25&fit=crop&fm=jpg&h=775&ixjsv=2.1.0&ixlib=rb-0.3.5&q=75&w=1550" alt=""></div>
+          </div>
+          <!--About -->
+          <div id="about">
+
+            <div class="divider"></div>
+            <div class="section">
+              <h3 class="title">About</h3>
+            </div>
+
+            <div class="section container ">
+
+              <div class="divider"></div>
+              <div class="section">
+
+                <div class="row about-description flow-text">
+
+                  <div class="col s12">
+                    <h5>Programming Courses:</h5>
+                    <ul>
+                      <li>Introduction to Programming (C++)</li>
+                      <li>Advanced Programming (C++)</li>
+                      <li>Software Design and Construction (HTML/CSS/Bootstrap/Java)</li>
+                      <li>Operating System (C)</li>
+                    </ul>
+                  </div>
+                  <div class="col s12">
+                    <h5>Circuit Courses:</h5>
+                    <ul>
+                      <li>Electric Circuits 1 & 2 (Project: Eagle PCB)</li>
+                      <li>Electronics 1</li>
+                      <li>Logic Circuits (Project: LogicSim)</li>
+                      <li>Signals and Systems (Project: Arduino)</li>
+                    </ul>
+                  </div>
+
+                  <div class="col s12">
+                    <h5>Languages:</h5>
+                    <ul>
+                      <li>C</li>
+                      <li>C#</li>
+                      <li>C++</li>
+                      <li>Arduino</li>
+                      <li>Javascript</li>
+                    </ul>
+                  </div>
+                  <div class="col s12">
+                    <h5>Frameworks:</h5>
+                    <ul>
+                      <li>Bootstrap</li>
+                      <li>AngularJS</li>
+                      <li>MaterializeCSS</li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Portfolio -->
+            <div id="portfolio">
+              <div class="divider"></div>
+              <div class="section">
+                <h4 class="port-title">Projects</h4>
+              </div>
+
+              <div class="divider"></div>
+              <div class="section flex-projects container">
+
+                <div class="divider"></div>
+                <div class="section">
+
+                  <div class="row">
+
+                    <!-- Project C Sharp -->
+                    <div class="col s12 m4">
+                      <div id="csharp">
+                        <div class="card small">
+                          <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="http://i.imgur.com/uuCY1I9.jpg">
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Intrusion Detection System<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#">Github</a></p>
+                          </div>
+                          <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Intrusion Detection System<i class="material-icons right">close</i></span>
+                            <p>Intrusion Detection System done in C#, it monitors and detects anomalies in a time set by the user and it measures the load percentage of your CPU, available RAM,and current processes running. As well as serving as a interface for Snort's
+                              Network Intrusion Detection system.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <!-- Project AngularJS -->
+                      <div class="col s12 m4">
+                        <div class="card small">
+                          <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="http://placehold.it/100x100">
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Intrusion Detection System<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#">Github</a></p>
+                          </div>
+                          <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Intrusion Detection System<i class="material-icons right">close</i></span>
+                            <p>Intrusion Detection System done in C#, it monitors and detects anomalies in a time set by the user and it measures the load percentage of your CPU, available RAM,and current processes running. As well as serving as a interface for Snort's
+                              Network Intrusion Detection system.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="page-footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col l6 s12">
+                    <h5 class="white-text">Contact me</h5>
+                    <p class="grey-text text-lighten-4"></p>
+                  </div>
+                  <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                      <li>
+                        <a class="grey-text text-lighten-3" href="https://github.com/lrivera27/">
+                          Github</a>
+                        </li>
+                        <li>
+                          <a class="grey-text text-lighten-3" href="#!">
+                            Email</a>
+                          </li>
+                          <li>
+                            <a class="grey-text text-lighten-3" href="#!">
+                              LinkedIn</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="footer-copyright">
+                      <div class="container">
+                        Luis E. Rivera Figueroa
+
+                      </div>
+                    </div>
+                  </footer>
+
+
+
+                </body>
+                </html>
