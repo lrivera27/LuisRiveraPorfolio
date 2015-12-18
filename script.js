@@ -19,4 +19,11 @@ $(document).ready(function() {
   //Parallax effect
   $('.parallax').parallax();
 
+  //Staggered effect
+  var options = [
+    {selector: '#lang-title', offset: 150, callback: 'Materialize.showStaggeredList("#lang-title")'},
+    {selector: '#staggered-ul', offset: 200, callback: 'Materialize.showStaggeredList("#staggered-ul")'}
+  ];
+  Materialize.scrollFire(options);
+
 });

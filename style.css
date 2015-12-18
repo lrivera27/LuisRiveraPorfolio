@@ -25,7 +25,7 @@
 
 #home .home-img {
   margin-top: 20px;
-  border-radius: 100px;
+  border-radius: 20px 50px 20px;
 }
 
 #home .name h4 {
@@ -49,6 +49,29 @@
 .about-description ul li  {
   margin-left: 20px;
   margin-bottom: 10px;;
+}
+
+/*Skills*/
+#skills .title {
+  margin-left: 2%;
+}
+
+#skills .lang-title {
+  margin-left: 4%;
+}
+
+#skills #lang-title li {
+  opacity: 0;
+}
+
+#skills #staggered-ul li {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  opacity: 0;
+}
+
+#skills .chip {
+  font-size: 20px;
 }
 
 /*Porfolio*/
