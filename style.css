@@ -52,6 +52,10 @@
 }
 
 /*Skills*/
+#skills {
+  height: 600px;
+}
+
 #skills .title {
   margin-left: 2%;
 }
