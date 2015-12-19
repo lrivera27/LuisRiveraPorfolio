@@ -1,4 +1,7 @@
-
+body {
+  margin: 0;
+  padding: 0;
+}
 /*Nav Bar*/
 #logo-img {
   width: 150px;
@@ -39,6 +42,7 @@
 /*About*/
 
 #about {
+  padding-top: 50px;
   background-color: #fafafa;
 }
 
@@ -53,6 +57,7 @@
 
 /*Skills*/
 #skills {
+  padding-top: 50px;
   height: 600px;
 }
 
@@ -79,6 +84,10 @@
 }
 
 /*Porfolio*/
+#porfolio {
+  padding-top: 50px;
+}
+
 .port-title {
   margin-left: 2%;
 }
