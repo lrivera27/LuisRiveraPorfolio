@@ -26,17 +26,27 @@ body {
   height: 600px;
 }
 
+
+#home .social-btns span{
+  margin-right: 20px;
+  color: #5D609A;
+}
+
+#home .social-btns a {
+  margin-top: 10px;
+}
+
 #home .home-img {
   margin-top: 20px;
   border-radius: 20px 50px 20px;
 }
 
-#home .name h4 {
+#home .name h5 {
   font-weight: 900;
 }
 
-#home .description h4 {
-  font-weight: 800;
+#home .description h5 {
+  font-weight: 700;
 }
 
 /*About*/
