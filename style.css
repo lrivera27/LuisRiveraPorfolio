@@ -1,121 +1,207 @@
 body {
-  margin: 0;
-  padding: 0;
-}
-/*Nav Bar*/
-#logo-img {
-  width: 150px;
-  height: auto;
-  margin-top: 5%;
-}
-
-.header-text {
-  color: #212121;
-  font-weight: 500;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
 
 /*Content*/
-
-/*Home*/
-#home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  height: 600px;
+.content {
+	color: #EEEEEE;
+	text-shadow: 0 1px 0 black;
+	flex: 1 0 auto;
+}
+/*General CSS*/
+.content-title{
+	padding-top: 50px;
+	margin-left: 2%;
+	font-size: 50px;
+	font-weight: 900;
 }
 
-
-#home .social-btns span{
-  margin-right: 20px;
-  color: #5D609A;
+#about-title, #skills-title, #lang-title, #frame-title, #port-title, #proj-cards, #contact-title, #contact-form {
+	visibility: hidden;
 }
 
-#home .social-btns a {
-  margin-top: 10px;
-}
+	/*Nav Bar*/
+	#logo-img {
+		width: 150px;
+		height: auto;
+		margin-top: 5%;
+	}
 
-#home .home-img {
-  margin-top: 20px;
-  border-radius: 20px 50px 20px;
-}
+	.header-text {
+		color: #212121;
+		font-weight: 500;
+	}
 
-#home .name h5 {
-  font-weight: 900;
-}
+	/*Content*/
 
-#home .description h5 {
-  font-weight: 700;
-}
+	/*Home*/
 
-/*About*/
+	#home {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 
-#about {
-  padding-top: 50px;
-  background-color: #fafafa;
-}
+		height: 100vh;
+	}
 
-#about .title {
-  margin-left: 2%;
-}
+	.social-btns span {
+		margin-right: 20px;
+		color: #5D609A;
+	}
 
-.about-description ul li  {
-  margin-left: 20px;
-  margin-bottom: 10px;;
-}
+	.social-btns a {
+		margin-top: 10px;
+	}
 
-/*Skills*/
-#skills {
-  padding-top: 50px;
-  height: 600px;
-}
+	#home-img {
+		margin-top: 20px;
+		border-radius: 20px 50px 20px;
+	}
 
-#skills .title {
-  margin-left: 2%;
-}
+	#home .name h5 {
+		font-weight: 900;
+	}
 
-#skills .lang-title {
-  margin-left: 4%;
-}
+	#home .description h5 {
+		font-weight: 700;
+	}
 
-#skills #lang-title li {
-  opacity: 0;
-}
+	/*About*/
+	#about {
+		min-height: 750px;
+	}
 
-#skills #staggered-ul li {
-  margin-left: 50px;
-  margin-bottom: 20px;
-  opacity: 0;
-}
+	#comp-courses > li, #elen-courses > li {
+		margin-left: 3%;
+		margin-top: 1%;
+	}
 
-#skills .chip {
-  font-size: 20px;
-}
+	#comp-courses > li, #elen-courses > li{
+		opacity: 0;
+	}
 
-/*Porfolio*/
-#porfolio {
-  padding-top: 50px;
-}
+	#comp-title, #elen-title {
+		font-weight: 900;
+		visibility: hidden;
+	}
 
-.port-title {
-  margin-left: 2%;
-}
+	#comp-courses, #elen-courses {
+		font-weight: 500;
+	}
 
-#porfolio .flex-projects {
-  display: flex;
-  flex-direction: row;
-}
+	/*Skills*/
+	#skills {
+		min-height: 600px;
+	}
+	#lang-title, #frame-title {
+		font-weight: 900;
+    font-size: 20px;
+	}
 
-/*Footer*/
-footer.page-footer {
-  margin-top: 0;
-  padding-top: 0;
-  background: #424242;
-}
+	.skill-languages, .skill-frameworks {
+		display: flex;
+		justify-content: center;
+		visibility: hidden;
+	}
 
-@media screen and (min-width: 993px) {
-  #logo-img {
-    margin-left: 20px;
-  }
-}
+	#lang-fcolumn, #lang-scolumn, #frame-fcolumn, #frame-scolumn {
+		height: 100px;
+		min-width: 300px;
+		max-width: 350px;
+		font-weight: 900;
+		font-size: 20px;
+	}
+
+	/*Portfolio*/
+	.card-reveal {
+		color: #212121;
+		text-shadow: none;
+
+	}
+
+	/*Contact Me*/
+	#contact {
+		height: 650px;
+	}
+
+	.glossy-back {
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
+	.submit-btn {
+		margin-bottom: 5%;
+	}
+
+
+	/*Footer*/
+	.footer-copyright {
+		min-height: 25px;
+	}
+
+	.footer-copyright img {
+		height: 30px;
+	}
+	/*Media Queries*/
+
+	/*Social Buttons*/
+	@media screen and (max-width: 347px) {
+
+		.social-btns{
+			display: flex;
+			flex-direction: column;
+			align-content: center;
+		}
+	}
+
+	/*Skills Languages*/
+	@media screen and (max-width: 681px) {
+		.skill-languages, .skill-frameworks {
+			flex-direction: column;
+			align-items: center;
+		}
+		#lang-scolumn, #frame-scolumn {
+			margin-top: -10px;
+		}
+
+		#skills {
+			min-height: 700px;
+		}
+	}
+
+	/*portfolio quereis*/
+
+	@media screen and (max-width: 600px){
+		#portfolio {
+			height: 1300px;
+		}
+	}
+
+	@media screen and (min-width: 601px) {
+		#portfolio {
+			height: 850px;
+		}
+	}
+
+	@media (min-width: 601px) and (max-width: 992px) {
+		.proj-img {
+			height: 200px;
+		}
+	}
+
+	/*Logo*/
+	@media screen and (min-width: 993px) {
+		#logo-img {
+			margin-left: 20px;
+		}
+
+		.proj-img {
+			height: 200px;
+			width: calc(40vw);
+		}
+
+	}
