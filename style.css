@@ -123,6 +123,10 @@ body {
 		text-shadow: none;
 
 	}
+	
+	.card-content {
+		text-shadow: none;
+	}
 
 	/*Contact Me*/
 	#contact {
