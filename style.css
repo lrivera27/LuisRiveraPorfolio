@@ -137,7 +137,6 @@ body {
 		margin-bottom: 5%;
 	}
 
-
 	/*Footer*/
 	.footer-copyright {
 		min-height: 25px;
@@ -177,7 +176,7 @@ body {
 
 	@media screen and (max-width: 600px){
 		#portfolio {
-			height: 1300px;
+			height: 1350px;
 		}
 	}
 
